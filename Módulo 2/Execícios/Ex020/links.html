@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+          color:rgb(255, 0, 0) ;
+          text-decoration: none;
+          font-weight: bold
+        }
+        a:visited{
+            color: chartreuse;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aqua;
+        }
+        .especial::before{
+        content: '✔';
+       }
+       .especial::after{
+        content: '✔';
+       }
+    </style>
+</head>
+<body> 
+    <h1>Personalizando links</h1>
+    <ul>
+        <a class="especial" href="https://github.com/dernedevJR" target="_self">
+            <li>Repositório GitHub</li>
+        </a>
+        <a href="https://youtu.be/FpsCzFGL1LE?si=URUUutrG6tw-GxH-">
+            <li>Canal do YouTube</li>
+        </a>
+    </ul>
+</body>
+</html>
